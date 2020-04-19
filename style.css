@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 960px;
+    text-align: left;
+    background-color: lightgrey;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+nav li{
+    flex: 1;
+
+}
+
+nav a:link, nav a:visited{
+    background-color: lightslategray;
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a:hover{
+    background-color: lightblue;
+}
+
+header{
+    background-image: url("Imagenes/imagen6.jpg");
+    height: 100px;
+    margin-bottom: 70px;
+}
+
+header h1{
+    color: rgba(256, 256, 256, .8);
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+table {
+    margin: left;
+  }
+
+  table {
+    color: #333;
+    background: white;
+    border: 1px solid grey;
+    font-size: 12pt;
+    border-collapse: collapse;
+  }
+
+  table th, table td {
+  padding: .5em;
+  border: 1px solid lightgrey;
+  }
+
+  tbody tr:nth-of-type(odd){
+    background: rgba(0,0,0,.05);
+}
